@@ -1,0 +1,51 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.jumbotron {
+    background-color: transparent;
+    /* Eliminamos el fondo de color del jumbotron */
+}
+
+.container .title {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    /* Ajustamos el espacio entre los títulos */
+}
+
+.green-text {
+    color: #6cc070;
+    /* Color verde claro */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    margin-top: 20px;
+    /* Espacio entre los títulos */
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.green-text {
+    color: lightgreen;
+}

@@ -1,0 +1,14 @@
+.img-marvel {
+    width: 500px; 
+    height: auto;
+    margin: auto; 
+}
+.img-dc {
+    width: 500px; 
+    height: auto; 
+    
+}
+.img-marvel, .img-dc, .img-heroe {
+    display: block;
+    margin: auto;
+}
